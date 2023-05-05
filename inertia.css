@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: monospace;
+  font-size: max(3ch, 3vmin + 1vmax);
+}
+
+:focus {
+  outline: .5ch double;
+}
+
+body {
+  margin: auto;
+  overflow-wrap: anywhere;
+}
+
+article {
+  box-sizing: border-box;
+  margin: auto;
+}
+
+h1 {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  font-size: 3em;
+  justify-content: center;
+  margin: auto;
+  max-width: 5em;
+  min-height: 100vh;
+  padding: 1rem 1em;
+}
+
+data {
+  letter-spacing: 1ch;
+  text-transform: uppercase;
+  text-shadow: 3vw 3vh 0, 2vw 2vh 0, 1vw 1vh 0;
+}
+
+s {
+  text-decoration-style: wavy;
+}
+
+menu {
+  display: table;
+  font-family: sans-serif;
+  font-size: 2em;
+  line-height: 2;
+  list-style: circle;
+  margin-inline: auto;
+  margin-block: 1em;
+  text-transform: uppercase;
+  padding-block: 1rem;
+}
+
+li a {
+  display: inline-flex;
+  border: 1ch double;
+  padding: 1vh 1vw;
+}
+
+li:nth-child(even) {
+  list-style: square;
+}
+
+li:focus-within {
+  list-style: disc;
+}
