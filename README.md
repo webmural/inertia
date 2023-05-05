@@ -1,6 +1,6 @@
-## [`imagine`](index.html)
+## [`inertia`](index.html)
 
-## [graf](../../generate) [imagine](https://webmural.com/imagine)
+## [graf](../../generate) [inertia](https://webmural.com/inertia)
 
 * [urenuf](https://webmural.com/html)
 * [cascade](https://webmural.com/css)
